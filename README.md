@@ -10,7 +10,6 @@ I used an old laptop with Ubuntu Server LTS.
 
 - [Installation](setup-installation.md) — Bootable USB stick & installation
 - [Netplan Config](netplan-config.md) — Static IP and WiFi setup  
-- [Network Bonding](bonding.md) — Ethernet + WiFi bonding options  
 - [Port Forwarding & Firewall](port-forwarding.md) — Router setup and UFW/Fail2Ban  
 - [SSH Setup](ssh-setup.md) — Key-based SSH access and security tips  
 - [ngrok Setup](ngrok-setup.md) — Remote SSH access bypassing CGNAT  
