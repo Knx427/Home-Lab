@@ -7,7 +7,7 @@ Ethernet (eno1) is preferred because of the lower metric (100).
 If Ethernet goes down, routing automatically switches to Wi-Fi (wlan0) with higher metric (200).   
    
 Use Netplan to configure a static IP on your Ubuntu server:
-enter: ```bash sudo nano /etc/netplan/01-netcfg.yaml```
+```bash sudo nano /etc/netplan/01-netcfg.yaml```
 
 ```yaml
 network:
