@@ -9,9 +9,9 @@ I used an old laptop with Ubuntu Server LTS.
 ## Contents
 
 - [Installation](setup-installation.md) — Bootable USB stick & installation
-- [Netplan Config](netplan-config.md) — Static IP and WiFi setup  
-- [Port Forwarding & Firewall](port-forwarding.md) — Router setup and UFW/Fail2Ban  
+- [Netplan Config](netplan-config.md) — Static IP and WiFi setup
 - [SSH Setup](ssh-setup.md) — Key-based SSH access and security tips  
+- [Port Forwarding & Firewall](port-forwarding.md) — Router setup and UFW/Fail2Ban  
 - [ngrok Setup](ngrok-setup.md) — Remote SSH access bypassing CGNAT  
 - [Nextcloud Fix](nextcloud.md) — Trusted domains configuration
 
