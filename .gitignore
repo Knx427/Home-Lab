@@ -1,0 +1,17 @@
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.bak
+*.tmp
+*.zip
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Secrets or credentials
+*.pem
+*.key
+*.env
