@@ -38,10 +38,10 @@ network:
           metric: 200
 
 ```
-You can see your adapters using the command ```bash ip a```.
+You can see your adapters using the command ```ip a```.   
 Apply changes:
 
-```bash
+```
 sudo netplan apply
 ```
 
