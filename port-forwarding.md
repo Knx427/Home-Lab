@@ -15,13 +15,13 @@
 
 ## UFW Firewall
 
-Allow SSH port on server:
+Allow SSH and Nextcloud port on server:
 
 ```bash
-sudo ufw allow 5555/tcp # Use port you configured in /etc/ssh/sshd_config 
+sudo ufw allow 5555/tcp # Use port you configured in /etc/ssh/sshd_config
+sudo ufw allow 80 # Use 80 for HTTP or 443 for HTTPS
 sudo ufw enable
 ```
-
 ---
 
 - CGNAT (ISP NAT) blocks direct port forwarding in some cases, Check if your router's settings if WAN IP is private (e.g. 10.x.x.x, 100.64.x.x)
