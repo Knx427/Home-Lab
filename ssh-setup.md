@@ -1,4 +1,4 @@
-# SSH Setup and Security
+# SSH Setup and Security notifications
 
 ### Disable Password Authentication and use custom port
 
@@ -17,6 +17,36 @@ sudo systemctl enable ssh
 sudo systemctl start/restart ssh
 sudo systemctl status ssh
 ```
+### Create Security notifications and send them to your email
+Install `ssmtp`:
+```bash
+sudo apt install ssmtp
+```
+Then configure ssmtp (this one is configured for gmail):
+```bash
+root=your_email@gmail.com
+mailhub=smtp.gmail.com:587
+AuthUser=your_email@gmail.com
+AuthPass=your_app_password  # 16 character code, remove spaces
+UseSTARTTLS=YES
+```
+**Note:** ``Get your app password from your google security settings (must have 2FA active)``
+
+Create the file:
+```bash
+sudo nano /etc/ssh/sshrc
+```
+Configure the sshrc file: 
+```bash
+#!/bin/bash
+echo "SSH Login from $SSH_CLIENT to $(hostname) on $(date)" | mail -s "SSH Login Alert" your_email@example.com
+```
+Make it Executable:
+```bash
+sudo chmod +x /etc/ssh/sshrc
+```
+---
+
 ## Fail2Ban
 
 Protect SSH from brute force:
