@@ -20,6 +20,8 @@ Allow SSH and Nextcloud port on server:
 ```bash
 sudo ufw allow 5555/tcp # Use port you configured in /etc/ssh/sshd_config
 sudo ufw allow 80 # Use 80 for HTTP or 443 for HTTPS
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
 sudo ufw enable
 ```
 ---
