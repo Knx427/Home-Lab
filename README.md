@@ -10,10 +10,10 @@ I used an old laptop with Ubuntu Server LTS.
 
 - [Installation](setup-installation.md) — Bootable USB stick & installation
 - [Netplan Config](netplan-config.md) — Static IP and WiFi setup
-- [SSH Setup](ssh-setup.md) — Key-based SSH access and security tips  
+- [SSH + email Setup](ssh-setup.md) — Key-based SSH access and security tips  
 - [Port Forwarding & Firewall](port-forwarding.md) — Router setup and UFW/Fail2Ban
 - [Nextcloud Config](nextcloud.md) — Trusted domains configuration
-- [ngrok Setup](ngrok-setup.md) — Remote SSH access bypassing CGNAT  
+- [Ngrok Setup](ngrok-setup.md) — Remote SSH access bypassing CGNAT  
 
 ---
 
