@@ -30,8 +30,8 @@ network:
       dhcp4: no
       addresses: [192.168.1.101/24]
       access-points:
-        "YourSSID":
-          password: "YourPassword"
+        [YourSSID]:
+          password: [YourPassword]
       routes:
         - to: 0.0.0.0/0
           via: 192.168.1.1
