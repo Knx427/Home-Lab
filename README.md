@@ -12,7 +12,7 @@ I used an old laptop with Ubuntu Server LTS.
 - [Netplan Config](netplan-config.md) — Static IP and WiFi setup
 - [SSH + email Setup](ssh-setup.md) — Key-based SSH access and security tips  
 - [Port Forwarding & Firewall](port-forwarding.md) — Router setup and UFW/Fail2Ban
-- [Nextcloud Config](nextcloud.md) — Trusted domains configuration
+- [Nextcloud Config](nextcloud.md) — Trusted domains configuration + Login / 2FA Setup
 - [Ngrok Setup](ngrok-setup.md) — Remote SSH access bypassing CGNAT  
 
 ---
