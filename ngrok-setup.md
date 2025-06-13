@@ -46,6 +46,7 @@ tunnels:
         proto: http  # or https depends on Next cloud Config
         addr: 80  # Same as above
         domain: [Your-static-Domain-Name].ngrok-free.app
+        auth: "[Username]:[Password]" # You can add an extra Protection Layer redirecting to an login screen before allowing passage
     ssh:
         proto: tcp
         addr: 5555  # Your SSH port
