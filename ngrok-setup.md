@@ -43,8 +43,8 @@ Example content:
 version: 3
 tunnels:
     nextcloud:
-        proto: http  # or https depends on Next cloud Config
-        addr: 80  # Same as above
+        proto: http  # proto only accepts http, configure the port for https
+        addr: 80  # 443 for https 
         domain: [Your-static-Domain-Name].ngrok-free.app
         auth: "[Username]:[Password]" # You can add an extra Protection Layer redirecting to an login screen before allowing passage
     ssh:
